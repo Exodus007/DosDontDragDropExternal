@@ -11,8 +11,7 @@
 	  <meta name="google-signin-scope" content="profile email">
     <meta name="google-signin-client_id" content="542758334391-lrvmgubamvndoi8mh9usp13vrrdcimi3.apps.googleusercontent.com">
     <script src="https://apis.google.com/js/platform.js" async defer></script>
-  
-  </head>
+ 
   <body>
     <div class="webgl-content">
       <div id="unityContainer" style="width: 960px; height: 600px"></div>
@@ -23,6 +22,8 @@
       </div>
     </div>
   </body>
+	   
+  </head>
     <script>
       var unityInstance = UnityLoader.instantiate("unityContainer", "Build/Webgl_Build.json", {onProgress: UnityProgress});
 	  var userName;
